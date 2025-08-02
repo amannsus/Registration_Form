@@ -83,6 +83,28 @@ section h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: height .2s ease, transform .5s ease;
+}
+
+.auth-modal.show {
+    transform: scale(1);
+}
+
+.auth-modal.slide {
+    height: 520px;
+}
+
+.auth-modal .form-box.login,
+.auth-modal.slide .form-box.register {
+    transform: translateX(0);
+    transition: transform .18s ease;
+}
+
+.auth-modal.slide .form-box.login {
+    transform: translate(-400px);
+    transition: none;
 }
 
 .form-box {
@@ -154,4 +176,146 @@ section h1 {
 
 .form-box p a:hover {
     text-decoration: underline;
+}
+
+.auth-modal .close-btn-modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    border-bottom-left-radius: 20px;
+    font-size: 35px;
+    color: #222;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.auth-modal .form-box.register {
+    position: absolute;
+    transform: translateX(410px);
+    color: #c71111;
+}
+
+/* Fixed Profile Box Styles */
+.profile-box .avatar-circle {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #222 !important;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.profile-box .dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.profile-box.show .dropdown {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Fixed Dropdown Span Styles */
+.profile-box .dropdown span {
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+    display: block;
+}
+
+.profile-box .dropdown a {
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 2px 0;
+    transition: .2s;
+}
+
+.profile-box .dropdown a:hover {
+    background: #eee;
+}
+
+.alert-box {
+    position: fixed;
+    inset: 0;
+    top: 35px;
+    margin: 0 auto;
+    width: 350px;
+    height: 70px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 0 15px;
+    z-index: 100;
+    overflow: hidden;
+    transform: translateY(calc(-100% - 35px));
+    transition: .5s ease;
+}
+
+.alert-box.show {
+    transform: translateY(0);
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #222;
+    font-weight: 500;
+}
+
+.alert::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #0abf30;
+    animation: progress 6s linear forwards;
+}
+
+.alert.error::after {
+    background: #f00;
+}
+
+@keyframes progress {
+    100% {
+        width: 0;
+    }
+}
+
+.alert i {
+    font-size: 35px;
+    color: #0abf30;
+    margin-right: 8px;
+}
+
+.alert.error i {
+    color: #f00;
 }
