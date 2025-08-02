@@ -46,32 +46,35 @@ PROJECT-1/
 
 ### 🔹 **1. Project Directory**  
       
-<img width="1414" height="713" alt="Screenshot 2025-08-03 013646" src="https://github.com/user-attachments/assets/3c1f1671-bf05-4694-be4f-bddbc9e45751" />
+<img width="1414" height="713" alt="Screenshot 2025-08-03 013646" src="https://github.com/user-attachments/assets/87c24dcf-4cbd-4336-a81e-e3ea000d7e1b" />
+
 
 
 ### 🔹 **2. Home Page** 
-<img width="1920" height="1080" alt="Screenshot 2025-08-02 165220" src="https://github.com/user-attachments/assets/c32692d9-ad5a-48a4-b768-46663d7aeb7c" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-02 165220" src="https://github.com/user-attachments/assets/2165e7fd-ff15-4fbd-80cc-dbd19c8dc789" />
+
 
 
 ### 🔹 **3. Registration Form**  
-<img width="1920" height="1080" alt="Screenshot 2025-08-02 165249" src="https://github.com/user-attachments/assets/6af32240-9cec-40cb-b59a-c1a1fa15842d" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-02 165249" src="https://github.com/user-attachments/assets/3e146951-e650-464a-bbc5-eeb370d443a4" />
+
 
 ### 🔹 **4. Login Successful**  
-<img width="1920" height="1080" alt="Screenshot 2025-08-02 165432" src="https://github.com/user-attachments/assets/13d9b088-b81b-4e98-8780-92247cd4417d" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-02 165432" src="https://github.com/user-attachments/assets/94c0e09f-d5d1-4409-bf79-d3ddef47553c" />
 
 
 ### 🔹 **5. User Dropdown**  
-<img width="1920" height="1080" alt="Screenshot 2025-08-02 165446" src="https://github.com/user-attachments/assets/c3d3c0c8-6b25-4f28-88ea-d6663455fa32" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-02 165446" src="https://github.com/user-attachments/assets/7d94d618-18be-4de8-a5f3-3b323b19ffbd" />
 
 
 ### 🔹 **6. Login Page**  
-<img width="1920" height="1080" alt="Screenshot 2025-08-02 165752" src="https://github.com/user-attachments/assets/72342164-6414-4ea3-a7ae-65cb6a4600e8" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-02 165752" src="https://github.com/user-attachments/assets/7cfa8b7c-5d58-49ce-bda8-e0fc3c5a0bc8" />
+
 
 ### 🔹 **7. 🗄️ Database Screenshot (phpMyAdmin showing inserted records)
-  <img width="1920" height="1080" alt="Screenshot 2025-08-02 170009" src="https://github.com/user-attachments/assets/a8f584f1-0536-4e8f-9b55-616f302a233b" />
+  <img width="1920" height="1080" alt="Screenshot 2025-08-02 170009" src="https://github.com/user-attachments/assets/980cf6e5-882d-4f06-a7ae-516d2aaa374f" />
 
-
----  
+---
 
 ## 🛠️ Installation & Setup  
 
